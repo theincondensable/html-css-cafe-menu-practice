@@ -2,7 +2,7 @@
 
 ### 1: You can style the elements inside the <head> of the HTML document.
 like this:
-        `p {
+    `   p {
             text-align: center;
         }
 
