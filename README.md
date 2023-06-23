@@ -46,3 +46,9 @@ first you have to define your let's say <div> element a Class name:
     .menu {
         ...
     }
+
+### 7: if the font-family of some specific Font is not available/found, you can specify a Fallback value:
+h1, h2 {
+    font-family: Impact, **serif**
+}
+now the "serif" is the Fallback option, if the "Impact" is not available/found, then "serif" is applied.
